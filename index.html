@@ -4,144 +4,277 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./stylesheet/generalstyle.css" />
-    <link rel="stylesheet" href="./stylesheet/index.css" />
     <link
-      href="ttps://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab:wght@300&display=swap"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
       rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+      crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="index.css" />
     <title>CENTINO - Inicio</title>
   </head>
-  <body class="body--container">
-    <header class="header--container">
-        <img  class="header__logo"
-                src="./img/logo_transparente.png"
-                alt="logo"
-        />
-        <nav  class="header__nav--container">
-          <ul>
-            <li class="header__nav--li"><a href="index.html">INICIO</a></li>
-            <li class="header__nav--li"><a href="nuestrocentro.html">NUESTRO CENTRO</a></li>
-            <li class="header__nav--li"><a href="especialidades.html">ESPECIALIDADES</a></li>
-            <li class="header__nav--li"><a href="estudios.html">ESTUDIOS</a></li>
-            <li class="header__nav--li"><a href="cirugias.html">CIRUGÍAS</a></li>
-            <li class="header__nav--li"><a href="portal.html">MI PORTAL</a></li>
-          </ul>
-        </nav>
-    </header>
-    <main class="main--container">
-        <div class= "main__img">
-            <div><a class="main__background__img__button" href="portal.html"> AGENDAR UN TURNO</a></div>
-        </div> 
-        <div class="main--container--1">
-        <div class="main--container__contacto">
-          <h2>CONTACTO</h2>
-          <h3>contacto@centino.com.ar</h3>
-          <h3>11 4123-4567</h3>
-        </div>
-        <div class="main--container__horario">
-          <h2>HORARIOS</h2>
-          <h3>de Lunes a Viernes</h3>
-          <h3>de 8:30hs a 20:00hs</h3>
-        </div>
-<div class="main--container__direccion">
-          <h2>UBICACIÓN</h2>
-          <h3>Calle Falsa 1234</h3>
-          <h3>Ciudad Autónoma de Buenos Aires</h3>
-          <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3286.024562347971!2d-58.45310038591638!3d-34.552933480472625!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb43204aff79b%3A0xd510f08e54a4a034!2sAv.%20del%20Libertador%20%26%20Av.%20Monroe%2C%20C1428%20CABA!5e0!3m2!1ses-419!2sar!4v1618785232569!5m2!1ses-419!2sar"
-              width="220px"
-              height="180"
-              style="border: 0"
-              allowfullscreen=""
-              loading="lazy"
-            ></iframe>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">
+            <img
+              class="logo-brand"
+              src="./img/logo_transparente.png"
+              alt="logo"
+            />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="navbarNavDropdown"
+          >
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html"
+                  >Inicio</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="nuestrocentro.html">Nuestro Centro</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="especialidades.html"
+                  >Especialidades</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="estudios.html">Estudios</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="cirugias.html">Cirugías</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="portal.html"
+                  id="navbarDropdownMenuLink"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Mi Portal
+                </a>
+                <ul
+                  class="dropdown-menu dropdown-menu-dark"
+                  aria-labelledby="dropdownMenuButton2"
+                >
+                  <li>
+                    <a
+                      class="dropdown-item disabled"
+                      href="portal.html"
+                      aria-disabled="true"
+                      >Intranet</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="portal.html">Mi Centro</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
           </div>
         </div>
-        <div class="main--container--2">
-        <iframe class="main--container--2__video"
-            src="https://www.youtube.com/embed/4kpXKu5QKww"
+      </nav>
+    </header>
+    <div>
+      <a href="portal.html" class="btn btn-main">SACAR UN TURNO</a>
+    </div>
+    <div
+      id="carouselExampleIndicators"
+      class="carousel slide"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./img/slide1.jpg" class="d-block w-100" alt="slide1" />
+        </div>
+        <div class="carousel-item">
+          <img src="./img/slide2.jpg" class="d-block w-100" alt="slide2" />
+        </div>
+        <div class="carousel-item">
+          <img src="./img/slide3.jpg" class="d-block w-100" alt="slide3" />
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <div class="container-fluid">
+      <div class="row justify-content-between mt-5">
+        <div class="col-md-4 text-center">
+          <h2>CONTACTO</h2>
+          <p>contacto@centino.com.ar</p>
+          <p>11 4123-4567</p>
+        </div>
+        <div class="col-md-4 text-center">
+          <h2>HORARIOS</h2>
+          <p>de Lunes a Viernes</p>
+          <p>de 8:30hs a 20:00hs</p>
+        </div>
+        <div class="col-md-4 text-center">
+          <h2>UBICACIÓN</h2>
+          <p>Calle Falsa 1234</p>
+          <p>Ciudad Autónoma de Buenos Aires</p>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3286.024562347971!2d-58.45310038591638!3d-34.552933480472625!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb43204aff79b%3A0xd510f08e54a4a034!2sAv.%20del%20Libertador%20%26%20Av.%20Monroe%2C%20C1428%20CABA!5e0!3m2!1ses-419!2sar!4v1618785232569!5m2!1ses-419!2sar"
+            width="50%"
+            height="180"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+          ></iframe>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid container-bottom">
+      <div class="row justify-content-between mt-5">
+        <div class="col-md-4 mt-5 container-video">
+          <iframe
+            width="700"
+            height="415"
+            src="https://www.youtube.com/embed/vbLKerkIrkY?controls=0"
             title="YouTube video player"
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen
           ></iframe>
-          <form action="#" id= "formulario" class="main--container--2__form">
-            <fieldset>
-              <h3>
+        </div>
+        <div class="col-md-4 text-center mt-5 container-form">
+          <form class="form row g-3" action="#">
+            <h2>
               Realice aqui su consulta, en breve estaremos respondiéndole.
-              </h3>
-              <div class="main__form__radioButton">
-                <label for="paciente">Soy paciente</label style="text-align: center">
-                <input type="radio" value="pac" name="espaciente" id="pac" />
-                <label for="fem">No soy paciente</label>
-                <input type="radio" value="nopac" name="espaciente" id="nopac" />
-              </div>
-              <label for="nombre">Nombre y Apellido</label>
-              <input id="nya" name="nya" type="text" />
-              <label for="edad">Edad</label>
-              <input id="edad" name="edad" type="text" />
-              <label for="email">Email</label>
-              <input id="email" name="email" type="text" />
-              <label for="celular">Celular o Teléfono Fijo</label>
-              <input id="celular" name="celular" type="text" />
-              <label for="coberturaMedica">Cobertura Médica</label>
-              <select name="coberturas" id="coberturas">
-                <option value="osde">OSDE</option>
-                <option value="swiss">SWISS MEDICAL</option>
-                <option value="galeno">GALENO</option>
-                <option value="omint">OMINT</option>
-                <option value="particular">PARTICULAR</option>
+            </h2>
+            <div class="col-md-6">
+              <label for="inputNombre" class="form-label">Nombre</label>
+              <input type="nombre" class="form-control" id="inputNombre" />
+            </div>
+            <div class="col-md-6">
+              <label for="inputApellido" class="form-label">Apellido</label>
+              <input type="apellido" class="form-control" id="inputApellido" />
+            </div>
+            <div class="col-12">
+              <label for="inputEmail" class="form-label">E-mail</label>
+              <input
+                type="text"
+                class="form-control"
+                id="inputEmail"
+                placeholder="ejemplo@gmail.com"
+              />
+            </div>
+            <div class="col-12">
+              <select
+                class="form-select form-select-sm"
+                aria-label=".form-select-sm example"
+              >
+                <option selected>Cobertura Médica</option>
+                <option value="1">OSDE</option>
+                <option value="2">SWISSMEDICAL</option>
+                <option value="3">OMINT</option>
+                <option value="4">PARTICULAR</option>
               </select>
-              <div class="main__form__button">
-              <button type="submit">ENVIAR</button>
-              <button type="reset">BORRAR</button>
+            </div>
+            <div class="col-12">
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  id="gridCheck"
+                />
+                <label class="form-check-label" for="gridCheck">
+                  Ya soy paciente
+                </label>
               </div>
-            </fieldset>
+            </div>
+            <div class="col-12">
+              <button type="submit" class="btn-form btn-primary">Enviar</button>
+            </div>
           </form>
         </div>
-    </main>
-    <footer class="footer--container">
-      <img class="footer__logo"
-            src="./img/logo_transparente.png"
-            alt="logo"
-      />
-      <h2 class="footer__copywrite">© 2021 - Todos los derechos reservados. By Michelle Ticchetti.</h2>
-      <div>  
+      </div>
+    </div>
+    <footer class="container-fluid container-footer">
+      <a class="footer-brand" href="index.html">
+        <img class="logo-brand" src="./img/logo_transparente.png" alt="logo" />
+      </a>
+      <h2 class="footer-copywrite">
+        © 2021 - Todos los derechos reservados. By Michelle Ticchetti.
+      </h2>
+      <div class="footer-rrss">
         <a href="https://www.facebook.com/">
-          <img
-            src="./img/fb_logo.png"
-            alt="fb_logo"
-            width="40px"
-            height="40px"
-          />
+          <img class="logo-img" src="./img/fb_logo.png" alt="fb_logo" />
         </a>
         <a href="https://www.instagram.com">
-          <img
-            src="./img/ig_logo.png"
-            alt="ig_logo"
-            width="40px"
-            height="40px"
-          />
+          <img class="logo-img" src="./img/ig_logo.png" alt="ig_logo" />
         </a>
         <a href="https://www.youtube.com">
-          <img
-            src="./img/youtube_logo.png"
-            alt="ytube_logo"
-            width="40px"
-            height="40px"
-          />
+          <img class="logo-img" src="./img/youtube_logo.png" alt="ytube_logo" />
         </a>
         <a href="https://www.whatsapp.com">
           <img
+            class="logo-img"
             src="./img/whatsapp_logo.png"
             alt="whatsapp_logo"
-            width="40px"
-            height="40px"
           />
         </a>
       </div>
     </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
-
