@@ -1,180 +1,92 @@
-.body--container {
-  display: grid;
-  grid-template-areas:
-    "header header header"
-    "main main main"
-    "footer footer footer";
-  grid-template-rows: 1fr auto 1fr;
-  grid-template-columns: 1fr 1fr 1fr;
+.logo-brand {
+  margin: 20px;
+  width: 220px;
+  height: 60px;
 }
 
-.main--container {
-  grid-area: main;
-  background: linear-gradient(
-    45deg,
-    rgba(222, 184, 135, 0.212) 0%,
-    rgba(255, 255, 255, 0.46262254901960786) 100%
-  );
-  display: grid;
-  grid-template-areas:
-    "mainImg mainImg mainImg"
-    "main1 main1 main1"
-    "main2 main2 main2";
-  grid-template-rows: 1fr auto 1fr;
-  grid-template-columns: 1fr auto 1fr;
-}
-
-.main__img {
-  grid-area: mainImg;
-  background-image: url("../img/img_ppal.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  height: 50vh;
-  display: grid;
-  grid-template-columns: 1fr[x0] 1fr[x1] 1fr[x2] 1fr[x3] 1fr[x4];
-  grid-template-rows: 1fr[y0] 1fr[y1] 1fr[y2] 1fr[y3];
-}
-
-.main__img div {
-  grid-column: x3 / x4;
-  grid-row: y0 / y1;
-}
-
-.main__background__img__button {
-  display: inline-block;
-  background-color: #335b525b;
-  padding: 40px 50px;
-  border: 2px;
-  border-radius: 5px;
-  width: max-content;
+.nav-item {
   text-align: center;
+  font-size: 1.8rem;
+  margin: 30px;
+}
+
+.btn-main {
+  text-align: center;
+  width: 100%;
   font-size: 1.5rem;
-  color: #ddd3d3dc;
+  background-color: #335b525b;
+  border: none;
+  color: white;
+}
+.carousel-inner {
+  height: 70vh;
 }
 
-.main__background__img__button:hover {
-  transform: scale(1.5);
-}
-
-.main--container--1 {
-  grid-area: main1;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  align-items: baseline;
-  height: 50vh;
-  padding: 30px;
-  overflow: auto;
-}
-
-.main--container--1 h3 {
+.text-center {
   text-align: center;
+}
+
+.text-center h2 {
+  margin: 10px;
   font-size: 2rem;
+}
+
+.container-bottom {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(51, 91, 82, 0.13209033613445376) 100%
+  );
+}
+
+.container-video {
+  margin: 30px;
+  padding: 5px;
+}
+
+.container-form {
+  margin: 30px;
+  padding: 5px;
+}
+
+.form-select {
+  width: 50%;
   margin-top: 15px;
 }
 
-.main--container--1 h2 {
-  text-align: center;
-  font-size: 2.5rem;
-  color: #488174;
-  margin: 10px;
-}
-
-.main--container__contacto {
-  text-align: center;
-  width: fit-content;
-}
-
-.main--container__horario {
-  text-align: center;
-  width: fit-content;
-}
-
-.main--container__direccion {
-  text-align: center;
-  width: fit-content;
-}
-
-.main--container--1 iframe {
-  margin: 15px;
-  align-items: center;
-  position: relative;
-  overflow: auto;
-}
-
-.main--container--2 {
-  grid-area: main2;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  align-items: center;
-  height: 50vh;
-  overflow: auto;
-}
-
-.main--container--2__video {
-  width: 60%;
-  height: 80%;
-}
-
-.main--container--2__form {
-  width: max-content;
-}
-
-.main--container--2__form fieldset {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  border: 0;
-}
-
-.main--container--2__form h3 {
-  font-size: 1.5rem;
-  text-align: center;
-}
-
-.main--container--2__form label {
-  font-size: 1rem;
-  margin: 5px;
-}
-
-.main--container--2__form input {
-  background-color: white;
-  font-size: 1rem;
-  border: 2px;
-  border-radius: 5px;
-}
-
-.main--container--2__form select {
-  background-color: white;
-  font-size: 1rem;
+.form-check {
   width: 50%;
+  margin-top: 15px;
 }
 
-.main--container--2__form option {
-  font-size: 1rem;
-}
-
-.main__form__button {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-}
-
-.main__form__radioButton {
-  text-align: center;
-  margin: 15px;
-}
-
-.main__form__button button {
+.btn-form {
+  width: 100%;
   background-color: #335b525b;
-  cursor: pointer;
-  padding: 10px 10px;
+  padding: 5px;
   margin: 10px;
   border: 2px;
   border-radius: 5px;
-  color: white;
-  width: 20%;
+  text-align: center;
+}
+
+.container-footer {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container-footer a {
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.container-footer h2 {
   font-size: 1rem;
+}
+
+.logo-img {
+  width: 40px;
+  height: 40px;
 }
