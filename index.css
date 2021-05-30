@@ -1,0 +1,92 @@
+.logo-brand {
+  margin: 20px;
+  width: 220px;
+  height: 60px;
+}
+
+.nav-item {
+  text-align: center;
+  font-size: 1.8rem;
+  margin: 30px;
+}
+
+.btn-main {
+  text-align: center;
+  width: 100%;
+  font-size: 1.5rem;
+  background-color: #335b525b;
+  border: none;
+  color: white;
+}
+.carousel-inner {
+  height: 70vh;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-center h2 {
+  margin: 10px;
+  font-size: 2rem;
+}
+
+.container-bottom {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(51, 91, 82, 0.13209033613445376) 100%
+  );
+}
+
+.container-video {
+  margin: 30px;
+  padding: 5px;
+}
+
+.container-form {
+  margin: 30px;
+  padding: 5px;
+}
+
+.form-select {
+  width: 50%;
+  margin-top: 15px;
+}
+
+.form-check {
+  width: 50%;
+  margin-top: 15px;
+}
+
+.btn-form {
+  width: 100%;
+  background-color: #335b525b;
+  padding: 5px;
+  margin: 10px;
+  border: 2px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.container-footer {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container-footer a {
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.container-footer h2 {
+  font-size: 1rem;
+}
+
+.logo-img {
+  width: 40px;
+  height: 40px;
+}
