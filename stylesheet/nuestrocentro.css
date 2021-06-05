@@ -21,6 +21,25 @@
   bottom: auto;
 }
 
+.section1 {
+  margin: 0px;
+  padding: 0px;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(235, 216, 183, 0.17970938375350143) 27%
+  );
+}
+
 .section1 h4 {
-  font-size: 1rem;
+  font-size: 1.5rem;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.section2 {
+  margin: 0px;
+  padding: 0px;
 }
