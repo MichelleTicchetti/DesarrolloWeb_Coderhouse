@@ -1,11 +1,14 @@
 .main {
-  height: 100vh;
+  height: auto;
   background: rgb(255, 255, 255);
   background: linear-gradient(
     90deg,
     rgba(255, 255, 255, 1) 0%,
     rgba(51, 91, 82, 0.13209033613445376) 100%
   );
+  padding: 0px;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 .carousel-item {

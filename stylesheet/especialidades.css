@@ -1,21 +1,37 @@
-.container-fluid {
+.main {
   background: linear-gradient(
-    90deg,
-    rgba(255, 255, 255, 1) 0%,
-    rgba(51, 91, 82, 0.13209033613445376) 100%
+    45deg,
+    rgba(222, 184, 135, 0.116) 0%,
+    rgba(255, 255, 255, 0.295) 100%
+  );
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding: 0px;
+}
+
+.row {
+  margin: 0px;
+}
+
+.row h2 {
+  color: #335b52;
+  font-size: 2rem;
+  text-align: center;
+  margin-top: 15px;
+  background: linear-gradient(
+    45deg,
+    rgba(222, 184, 135, 0.212) 0%,
+    rgba(255, 255, 255, 0.46262254901960786) 100%
   );
 }
 
-.especialidad h2 {
-  color: #335b52;
-  background: linear-gradient(
-    90deg,
-    rgba(255, 255, 255, 1) 0%,
-    rgba(21, 26, 25, 0.281) 100%
-  );
-  font-size: 2rem;
-  text-align: center;
-  margin-top: 10px;
+.especialidad {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .especialidad h3 {

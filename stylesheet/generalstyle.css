@@ -3,13 +3,22 @@
   margin: 0px;
 }
 
+.navbar {
+  background-color: #335b522d;
+  height: 100px;
+}
+
+.navbar-toggler {
+  background-color: #c6a9a348;
+}
+
 .navbar-brand {
   margin: 0px;
   width: 30%;
 }
 
 .logo-brand {
-  margin: 20px;
+  margin: 10px;
   width: 220px;
   height: 60px;
 }
@@ -23,23 +32,32 @@
 .footer {
   display: flex;
   flex-flow: row wrap;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
+  background-color: #335b522d;
+  max-height: auto;
+  margin-top: 5px;
 }
 
 .footer-brand {
+  margin-top: 5px;
+  margin-bottom: 5px;
   align-items: center;
   width: auto;
 }
 
 .footer-copywrite {
+  margin-top: 5px;
+  margin-bottom: 5px;
   width: auto;
   align-items: center;
+  text-align: center;
 }
 
 .footer-rrss {
+  margin-top: 5px;
+  margin-bottom: 5px;
   width: auto;
-  align-items: center;
 }
 
 .footer a {
