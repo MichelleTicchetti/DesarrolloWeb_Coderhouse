@@ -1,6 +1,7 @@
 * {
   width: 100%;
   margin: 0px;
+  padding: 0px;
 }
 
 .navbar {
@@ -37,7 +38,7 @@
 
 .footerRow {
   flex-flow: row wrap;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
 }
 

@@ -1,5 +1,4 @@
 .main {
-  height: auto;
   background: rgb(255, 255, 255);
   background: linear-gradient(
     90deg,
@@ -11,10 +10,6 @@
   margin-bottom: 5px;
 }
 
-.carousel-item {
-  height: auto;
-}
-
 .carousel h2 {
   font-size: 2rem;
   color: rgba(0, 0, 0, 0.541);
@@ -24,4 +19,8 @@
 .carousel-caption {
   top: 0;
   bottom: auto;
+}
+
+.section1 h4 {
+  font-size: 1rem;
 }
