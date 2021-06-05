@@ -1,53 +1,20 @@
-.body--container {
-  display: grid;
-  grid-template-areas:
-    "header header header"
-    "main main main"
-    "footer footer footer";
-  grid-template-rows: 1fr auto 1fr;
-  grid-template-columns: 1fr 1fr 1fr;
-}
-
-.main--container {
-  grid-area: main;
-  display: grid;
-  grid-template-areas:
-    "text text text"
-    "gallery gallery gallery";
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 2fr 1fr;
-}
-
-.main--div__text h2 {
-  font-size: 1.8rem;
-  text-align: center;
-  margin: 30px;
-  padding: 10px;
-  width: 50%;
-}
-
-.main--div__text {
-  grid-area: text;
-  display: flex;
-  flex-direction: column;
-  background-image: url("../img/oftalmologa.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: top;
-  padding: 80px;
-}
-
-.main--container__gallery {
-  grid-area: gallery;
-  display: flex;
-  justify-content: space-evenly;
+.main {
+  height: 100vh;
+  background: rgb(255, 255, 255);
   background: linear-gradient(
-    45deg,
-    rgba(222, 184, 135, 0.212) 0%,
-    rgba(255, 255, 255, 0.46262254901960786) 100%
+    90deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(51, 91, 82, 0.13209033613445376) 100%
   );
 }
 
-.main--container__gallery img:hover {
-  transform: scale(1.5);
+.carousel h2 {
+  font-size: 2rem;
+  color: rgba(0, 0, 0, 0.541);
+  text-align: left;
+}
+
+.carousel-caption {
+  top: 0;
+  bottom: auto;
 }

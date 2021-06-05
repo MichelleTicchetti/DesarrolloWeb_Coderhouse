@@ -7,41 +7,89 @@
     <link rel="stylesheet" href="./stylesheet/generalstyle.css" />
     <link rel="stylesheet" href="./stylesheet/estudios.css" />
     <link
-      href="ttps://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab:wght@300&display=swap"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
       rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+      crossorigin="anonymous"
     />
     <title>CENTINO - Estudios</title>
-    <link
-      rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
-      crossorigin="anonymous"
-    />
-    <script
-      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-      crossorigin="anonymous"
-    ></script>
   </head>
-  <body class="body--container">
-    <header class="header--container">
-      <img class="header__logo" src="./img/logo_transparente.png" alt="logo" />
-      <nav class="header__nav--container">
-        <ul>
-          <li class="header__nav--li"><a href="index.html">INICIO</a></li>
-          <li class="header__nav--li">
-            <a href="nuestrocentro.html">NUESTRO CENTRO</a>
-          </li>
-          <li class="header__nav--li">
-            <a href="especialidades.html">ESPECIALIDADES</a>
-          </li>
-          <li class="header__nav--li"><a href="estudios.html">ESTUDIOS</a></li>
-          <li class="header__nav--li"><a href="cirugias.html">CIRUGÍAS</a></li>
-          <li class="header__nav--li"><a href="portal.html">MI PORTAL</a></li>
-        </ul>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="index.html">
+          <img
+            class="logo-brand"
+            src="./img/logo_transparente.png"
+            alt="logo"
+          />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarNavDropdown"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html"
+                >Inicio</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="nuestrocentro.html">Nuestro Centro</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="especialidades.html">Especialidades</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="estudios.html">Estudios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="cirugias.html">Cirugías</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="portal.html"
+                id="navbarDropdownMenuLink"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Mi Portal
+              </a>
+              <ul
+                class="dropdown-menu dropdown-menu-dark"
+                aria-labelledby="dropdownMenuButton2"
+              >
+                <li>
+                  <a
+                    class="dropdown-item disabled"
+                    href="portal.html"
+                    aria-disabled="true"
+                    >Intranet</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="portal.html">Mi Centro</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
       </nav>
     </header>
-    <main class="main--container">
+    <main>
       <h2>OCT</h2>
       <h2>UBM</h2>
       <h2>Paquimetría corneal</h2>
@@ -52,45 +100,40 @@
       <h2>Ecometría</h2>
       <h2>Campovisual Humphrey con pruebas centrales y periféricas</h2>
     </main>
-    <footer class="footer--container">
-      <img class="footer__logo" src="./img/logo_transparente.png" alt="logo" />
-      <h2 class="footer__copywrite">
+    <footer class="container-fluid footer bg-light">
+      <a class="footer-brand" href="index.html">
+        <img class="logo-brand" src="./img/logo_transparente.png" alt="logo" />
+      </a>
+      <h2 class="footer-copywrite">
         © 2021 - Todos los derechos reservados. By Michelle Ticchetti.
       </h2>
-      <div>
+      <div class="footer-rrss">
         <a href="https://www.facebook.com/">
-          <img
-            src="./img/fb_logo.png"
-            alt="fb_logo"
-            width="40px"
-            height="40px"
-          />
+          <img class="logo-rrss" src="./img/fb_logo.png" alt="fb_logo" />
         </a>
         <a href="https://www.instagram.com">
-          <img
-            src="./img/ig_logo.png"
-            alt="ig_logo"
-            width="40px"
-            height="40px"
-          />
+          <img class="logo-rrss" src="./img/ig_logo.png" alt="ig_logo" />
         </a>
         <a href="https://www.youtube.com">
           <img
+            class="logo-rrss"
             src="./img/youtube_logo.png"
             alt="ytube_logo"
-            width="40px"
-            height="40px"
           />
         </a>
         <a href="https://www.whatsapp.com">
           <img
+            class="logo-rrss"
             src="./img/whatsapp_logo.png"
             alt="whatsapp_logo"
-            width="40px"
-            height="40px"
           />
         </a>
       </div>
     </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
