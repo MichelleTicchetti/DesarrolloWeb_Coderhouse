@@ -5,72 +5,42 @@
   background-position: center;
   height: 100vh;
   width: 100%;
-}
-
-.main form {
-  position: absolute;
-  width: 20%;
-  top: 200px;
-  right: 100px;
-}
-
-.form legend {
-  font-size: 3rem;
-  text-decoration: none;
-  text-align: center;
-  color: #488174;
-}
-
-.form__inputsRadio {
-  margin: 5px;
-  font-size: 20px;
-  text-decoration: none;
-  text-align: center;
-  color: black;
-}
-
-.form__inputsText input {
-  text-align: center;
-  width: 100%;
-  border: 1px solid #488174;
-  height: 20px;
-  font-size: 1.5rem;
-  margin-top: 15px;
-  margin-bottom: 15px;
-}
-
-.form__button button {
-  background-color: #c6a9a3bd;
-  color: #488174;
-  font-size: 15px;
-  text-decoration: none;
-  font-weight: bolder;
-  cursor: pointer;
-  padding: 15px 25px;
-  margin-bottom: 10px;
   margin-top: 10px;
-  display: inline-block;
-  position: relative;
-  width: 100%;
+}
+
+.row {
+  display: flex;
+  flex-direction: column;
+  align-content: flex-end;
+  margin: 10px;
+}
+
+.form-container {
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(235, 216, 183, 0.17970938375350143) 27%
+  );
+  padding: 10px;
+}
+
+.formulario button {
+  color: white;
+  background-color: #488174af;
+  font-size: 1rem;
+  text-decoration: none;
+  cursor: pointer;
+  width: auto;
   border: 2px;
   border-radius: 5px;
 }
 
-.form__checkbox {
-  font-size: 15px;
-  position: relative;
-  top: 20%;
+.form--forgetPass {
+  margin-top: 10px;
 }
 
-.form__checkbox label {
-  font-size: 1rem;
-  text-align: center;
-  color: black;
-}
-
-.form__forgetPass h3 {
+.form--forgetPass h3 {
   text-align: center;
   font-weight: bolder;
-  font-size: 12px;
-  margin: 10px;
+  font-size: 1rem;
 }

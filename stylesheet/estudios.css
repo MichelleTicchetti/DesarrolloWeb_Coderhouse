@@ -3,21 +3,33 @@
   margin: 0px;
   margin-top: 5px;
   margin-bottom: 5px;
-  height: 100vh;
+}
+
+.text-center li {
+  list-style: none;
+  font-size: 1rem;
+  text-align: left;
+}
+
+.text-center h2 {
+  font-size: 1.3rem;
+  color: #335b525b;
+  text-align: left;
+  background: linear-gradient(
+    45deg,
+    rgba(222, 184, 135, 0.212) 0%,
+    rgba(255, 255, 255, 0.46262254901960786) 100%
+  );
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.banner {
+  height: 30vh;
   background-image: url("../img/slide1.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-}
-
-.mainTxt {
-  display: flex;
-  flex-direction: row;
-}
-
-.mainTxt h2 {
-  font-size: 1.5rem;
-  margin-top: 25px;
-  color: #335b52a4;
-  text-align-last: right;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
