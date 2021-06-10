@@ -28,14 +28,13 @@
 .footer {
   padding: 0px;
   background-color: #335b522d;
-  max-height: auto;
   margin-top: 5px;
   margin-bottom: 5px;
 }
 
 .footerRow {
-  flex-flow: row wrap;
-  justify-content: space-evenly;
+  flex-flow: row nowrap;
+  justify-content: space-between;
   align-items: center;
   margin: 0px;
 }
@@ -43,29 +42,26 @@
 .footer-brand {
   margin-top: 5px;
   margin-bottom: 5px;
-  align-items: center;
-  width: auto;
 }
 
 .footer-copywrite {
   margin-top: 5px;
   margin-bottom: 5px;
-  width: auto;
-  align-items: center;
   text-align: center;
 }
 
 .footer-rrss {
   margin-top: 5px;
   margin-bottom: 5px;
-  width: auto;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
+  width: fit-content;
 }
 
 .footer a {
   list-style-type: none;
   text-decoration: none;
+  width: auto;
 }
 
 .footer h2 {

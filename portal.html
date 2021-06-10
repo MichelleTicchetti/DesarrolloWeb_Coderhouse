@@ -4,17 +4,17 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./stylesheet/generalstyle.css" />
-    <link rel="stylesheet" href="./stylesheet/portal.css" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
       crossorigin="anonymous"
     />
-    <title>CENTINO - Mi Portal</title>
+    <link rel="stylesheet" href="./stylesheet/generalstyle.css" />
+    <link rel="stylesheet" href="./stylesheet/portal.css" />
+    <title>CENTINO - Nuestro Centro</title>
   </head>
-  <body class="body--container">
+  <body>
     <header>
       <nav class="navbar navbar-expand-lg navbar-light">
         <a class="navbar-brand" href="index.html">
@@ -91,44 +91,48 @@
     </header>
     <main class="container-fluid main">
       <div class="row">
-        <div class="col-lg-3 col-md-2 col-xs-12 form-container">
-          <form class="formulario">
-            <div class="mb-3">
-              <label for="exampleInputEmail1" class="form-label">Usuario</label>
-              <input
-                type="email"
-                class="form-control"
-                id="exampleInputEmail1"
-                aria-describedby="emailHelp"
-              />
-              <div id="emailHelp" class="form-text">Número de Paciente</div>
-            </div>
-            <div class="mb-3">
-              <label for="exampleInputPassword1" class="form-label"
-                >Contraseña</label
-              >
-              <input
-                type="password"
-                class="form-control"
-                id="exampleInputPassword1"
-              />
-            </div>
-            <div class="mb-3 form-check">
-              <input
-                type="checkbox"
-                class="form-check-input"
-                id="exampleCheck1"
-              />
-              <label class="form-check-label" for="exampleCheck1"
-                >Recordame</label
-              >
-            </div>
-            <button type="submit" class="btn btn-primary">Ingresar</button>
-            <div class="form--forgetPass">
-              <h3>¿Olvidaste la contraseña?</h3>
-              <h3>¿No tenés una cuenta? Registrate</h3>
-            </div>
-          </form>
+        <div class="col-12 section1">
+          <div class="form--container">
+            <form class="col-12 formulario">
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label"
+                  >Usuario</label
+                >
+                <input
+                  type="email"
+                  class="form-control"
+                  id="exampleInputEmail1"
+                  aria-describedby="emailHelp"
+                />
+                <div id="emailHelp" class="form-text">Número de Paciente</div>
+              </div>
+              <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label"
+                  >Contraseña</label
+                >
+                <input
+                  type="password"
+                  class="form-control"
+                  id="exampleInputPassword1"
+                />
+              </div>
+              <div class="mb-3 form-check">
+                <input
+                  type="checkbox"
+                  class="form-check-input"
+                  id="exampleCheck1"
+                />
+                <label class="form-check-label" for="exampleCheck1"
+                  >Recordame</label
+                >
+              </div>
+              <button type="submit" class="btn btn-primary">Ingresar</button>
+              <div class="form--forgetPass">
+                <h3>¿Olvidaste la contraseña?</h3>
+                <h3>¿No tenés una cuenta? Registrate</h3>
+              </div>
+            </form>
+          </div>
         </div>
       </div>
     </main>
@@ -149,34 +153,26 @@
           </h2>
         </div>
         <div class="col-8 footer-rrss">
-          <div>
-            <a href="https://www.facebook.com/">
-              <img class="logo-rrss" src="./img/fb_logo.png" alt="fb_logo" />
-            </a>
-          </div>
-          <div>
-            <a href="https://www.instagram.com">
-              <img class="logo-rrss" src="./img/ig_logo.png" alt="ig_logo" />
-            </a>
-          </div>
-          <div>
-            <a href="https://www.youtube.com">
-              <img
-                class="logo-rrss"
-                src="./img/youtube_logo.png"
-                alt="ytube_logo"
-              />
-            </a>
-          </div>
-          <div>
-            <a href="https://www.whatsapp.com">
-              <img
-                class="logo-rrss"
-                src="./img/whatsapp_logo.png"
-                alt="whatsapp_logo"
-              />
-            </a>
-          </div>
+          <a href="https://www.facebook.com/">
+            <img class="logo-rrss" src="./img/fb_logo.png" alt="fb_logo" />
+          </a>
+          <a href="https://www.instagram.com">
+            <img class="logo-rrss" src="./img/ig_logo.png" alt="ig_logo" />
+          </a>
+          <a href="https://www.youtube.com">
+            <img
+              class="logo-rrss"
+              src="./img/youtube_logo.png"
+              alt="ytube_logo"
+            />
+          </a>
+          <a href="https://www.whatsapp.com">
+            <img
+              class="logo-rrss"
+              src="./img/whatsapp_logo.png"
+              alt="whatsapp_logo"
+            />
+          </a>
         </div>
       </div>
     </footer>
