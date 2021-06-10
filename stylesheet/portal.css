@@ -16,6 +16,12 @@
 
 .form--container {
   padding: 10px;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(198, 169, 163, 0.5018382352941176) 89%
+  );
 }
 
 .formulario button {
@@ -34,7 +40,7 @@
 }
 
 .form--forgetPass h3 {
+  color: #488174;
   text-align: center;
-  font-weight: bolder;
   font-size: 1rem;
 }
