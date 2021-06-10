@@ -8,16 +8,18 @@
   padding: 0px;
   margin-top: 5px;
   margin-bottom: 5px;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(198, 169, 163, 0.5018382352941176) 89%
+  );
 }
 
 .carousel h2 {
   font-size: 2rem;
   color: rgba(0, 0, 0, 0.541);
   text-align: left;
-}
-
-.carousel-inner {
-  height: 80vh;
 }
 
 .carousel-caption {
@@ -28,20 +30,14 @@
 .section1 {
   margin: 0px;
   padding: 0px;
-  background: rgb(255, 255, 255);
-  background: linear-gradient(
-    90deg,
-    rgba(255, 255, 255, 1) 0%,
-    rgba(198, 169, 163, 0.5018382352941176) 89%
-  );
 }
 
 .section1 h4 {
   font-size: 1.2rem;
   font-weight: lighter;
   text-align: left;
-  margin-top: 30px;
-  margin-bottom: 50px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .section2 {

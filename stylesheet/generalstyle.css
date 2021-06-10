@@ -33,7 +33,7 @@
 }
 
 .footerRow {
-  flex-flow: row nowrap;
+  flex-flow: row wrap;
   justify-content: space-between;
   align-items: center;
   margin: 0px;
