@@ -1,0 +1,49 @@
+.footer {
+  background-color: $bc-footer;
+  margin-top: 5px;
+
+  .footerRow {
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+
+    .footer-brand {
+      margin-top: 5px;
+      margin-bottom: 5px;
+
+      .logo-brand {
+        margin: 10px;
+        width: 220px;
+        height: 60px;
+      }
+    }
+
+    .footer-copywrite {
+      margin-top: 5px;
+      margin-bottom: 5px;
+      text-align: center;
+
+      h2 {
+        font-size: $txt-size-s;
+      }
+    }
+
+    .footer-rrss {
+      margin-top: 5px;
+      margin-bottom: 5px;
+      display: flex;
+      justify-content: center;
+      width: fit-content;
+      a {
+        list-style-type: none;
+        text-decoration: none;
+        width: auto;
+
+        .logo-rrss {
+          width: 40px;
+          height: 40px;
+        }
+      }
+    }
+  }
+}

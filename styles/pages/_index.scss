@@ -1,0 +1,62 @@
+.bgimage {
+  display: flex;
+  align-items: flex-end;
+  background-image: $bimage-main;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-top: 5px;
+  width: 100%;
+  height: 600px;
+
+  h5 {
+    color: $color-cake;
+    font-size: $title-size;
+    text-align: left;
+    margin: 10px;
+  }
+
+  p {
+    color: $color-txt-default;
+    font-size: $txt-size-m;
+    text-align: left;
+    margin: 10px;
+  }
+}
+
+.btn {
+  border: none;
+  text-align: center;
+  width: 100%;
+  font-size: $txt-btn-size-l;
+  background-color: $color-cake;
+  color: $txt-btn-color;
+}
+
+.ppage {
+  align-items: space-evenly;
+  text-align: center;
+
+  h2 {
+    font-size: $title-size;
+    color: $color-green;
+    margin-bottom: 20px;
+  }
+
+  p {
+    font-size: $txt-size-m;
+  }
+}
+
+.bpage {
+  background: $bc-cream;
+
+  .container-form {
+    width: 50%;
+
+    .legend-form {
+      text-align: center;
+      color: $color-txt-default;
+    }
+  }
+}

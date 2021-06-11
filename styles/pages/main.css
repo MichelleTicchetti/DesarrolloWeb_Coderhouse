@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+.navbar {
+  background-color: #335b522d; }
+  .navbar .navbar-brand {
+    margin: 0px;
+    width: 30%; }
+    .navbar .navbar-brand .logo-brand {
+      margin: 10px;
+      width: 220px;
+      height: 60px; }
+  .navbar .nav-item {
+    text-align: center;
+    font-size: 1.8rem;
+    margin: 5px; }
+
+.footer {
+  background-color: #335b522d;
+  margin-top: 5px; }
+  .footer .footerRow {
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center; }
+    .footer .footerRow .footer-brand {
+      margin-top: 5px;
+      margin-bottom: 5px; }
+      .footer .footerRow .footer-brand .logo-brand {
+        margin: 10px;
+        width: 220px;
+        height: 60px; }
+    .footer .footerRow .footer-copywrite {
+      margin-top: 5px;
+      margin-bottom: 5px;
+      text-align: center; }
+      .footer .footerRow .footer-copywrite h2 {
+        font-size: 1rem; }
+    .footer .footerRow .footer-rrss {
+      margin-top: 5px;
+      margin-bottom: 5px;
+      display: flex;
+      justify-content: center;
+      width: fit-content; }
+      .footer .footerRow .footer-rrss a {
+        list-style-type: none;
+        text-decoration: none;
+        width: auto; }
+        .footer .footerRow .footer-rrss a .logo-rrss {
+          width: 40px;
+          height: 40px; }
+
+.bgimage {
+  display: flex;
+  align-items: flex-end;
+  background-image: url("/img/oftalmologo.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-top: 5px;
+  width: 100%;
+  height: 600px; }
+  .bgimage h5 {
+    color: #c6a9a3;
+    font-size: 2.2rem;
+    text-align: left;
+    margin: 10px; }
+  .bgimage p {
+    color: rgba(0, 0, 0, 0.541);
+    font-size: 1.5rem;
+    text-align: left;
+    margin: 10px; }
+
+.btn {
+  border: none;
+  text-align: center;
+  width: 100%;
+  font-size: 1.8rem;
+  background-color: #c6a9a3;
+  color: white; }
+
+.ppage {
+  align-items: space-evenly;
+  text-align: center; }
+  .ppage h2 {
+    font-size: 2.2rem;
+    color: #99bbad;
+    margin-bottom: 20px; }
+  .ppage p {
+    font-size: 1.5rem; }
+
+.bpage {
+  background: linear-gradient(90deg, white 0%, rgba(235, 216, 183, 0.179709) 27%); }
+  .bpage .container-form {
+    width: 50%; }
+    .bpage .container-form .legend-form {
+      text-align: center;
+      color: rgba(0, 0, 0, 0.541); }
