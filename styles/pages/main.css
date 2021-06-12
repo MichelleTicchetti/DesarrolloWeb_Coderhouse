@@ -62,7 +62,7 @@
 .bgimageIndex {
   display: flex;
   align-items: flex-end;
-  background-image: url("/img/oftalmologo2.jpg");
+  background-image: url("/styles/pages/imgPages/oftalmologo2.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -177,7 +177,7 @@
 
 .bannerEstudio {
   height: 50vh;
-  background-image: url("/img/slide1.jpg");
+  background-image: url("/styles/pages/imgPages/slide1.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -201,7 +201,7 @@
 
 .bannerCirugia {
   height: 60vh;
-  background-image: url("/img/cirujanos.jpg");
+  background-image: url("/styles/pages/imgPages/cirujanos.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
