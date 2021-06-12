@@ -1,0 +1,32 @@
+.mainCirugia {
+  width: 100%;
+  height: auto;
+  margin-top: 5px;
+  margin-bottom: 5px;
+
+  .section1Cirugia {
+    &--cirugia {
+      h2 {
+        background: $bc-green;
+        color: $color-boldgreen;
+        font-size: $txt-size-m;
+        text-align: center;
+      }
+      li {
+        list-style: none;
+        text-align: left;
+        font-size: $txt-size-s;
+      }
+    }
+  }
+}
+
+.bannerCirugia {
+  height: 60vh;
+  background-image: url("/img/cirujanos.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}

@@ -1,0 +1,45 @@
+.mainPortal {
+  background-image: url("/img/img_3.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  height: 100vh;
+  margin-top: 5px;
+  margin-bottom: 5px;
+
+  .section1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-top: 50px;
+
+    .form--container {
+      margin: 20px;
+      padding: 10px;
+      border: 2px;
+      border-radius: 5px;
+      background: $bc-green;
+
+      .formulario {
+        .btn-primary {
+          color: $txt-btn-color;
+          background-color: $bc-btn-green;
+          font-size: $txt-btn-size-s;
+          text-decoration: none;
+          cursor: pointer;
+          width: auto;
+          border: 2px;
+          border-radius: 5px;
+        }
+
+        .forgetPass {
+          margin: 10px;
+          h3 {
+            font-size: $txt-btn-size-s;
+            text-decoration: none;
+          }
+        }
+      }
+    }
+  }
+}

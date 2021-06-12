@@ -1,8 +1,8 @@
-.main {
+.mainIndex {
   padding: 0px;
 }
 
-.bgimage {
+.bgimageIndex {
   display: flex;
   align-items: flex-end;
   background-image: url("/img/oftalmologo.jpg");
@@ -57,7 +57,7 @@
   }
 }
 
-.bpage {
+.bpageIndex {
   background: $bc-cream;
 
   .container-form {
