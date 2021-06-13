@@ -1,14 +1,14 @@
 .mainCentro {
-  margin-top: 5px;
-  margin-bottom: 5px;
+  margin-top: $margin-size-small;
+  margin-bottom: $margin-size-small;
   background: $bc-cream;
 
   h4 {
-    font-size: $txt-size-s;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    padding: 15px;
+    font-size: $txt-size-m;
+    margin-top: $margin-size-normal;
+    margin-bottom: $margin-size-normal;
+    padding: $padding-size-normal;
     font-weight: lighter;
-    text-align: center;
+    text-align: left;
   }
 }

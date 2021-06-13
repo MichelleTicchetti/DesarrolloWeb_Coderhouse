@@ -1,9 +1,6 @@
 .footer {
   background-color: $bc-footer;
-  margin-top: 5px;
-  margin-left: 0px;
-  margin-right: 0px;
-  padding: 0px;
+  margin-top: $margin-size-small;
 
   .footerRow {
     flex-flow: row wrap;
@@ -11,19 +8,19 @@
     align-items: center;
 
     .footer-brand {
-      margin-top: 5px;
-      margin-bottom: 5px;
+      margin-top: $margin-size-small;
+      margin-bottom: $margin-size-small;
 
       .logo-brand {
-        margin: 10px;
+        margin: $margin-size-normal;
         width: 220px;
         height: 60px;
       }
     }
 
     .footer-copywrite {
-      margin-top: 5px;
-      margin-bottom: 5px;
+      margin-top: $margin-size-small;
+      margin-bottom: $margin-size-small;
       text-align: center;
 
       h2 {
@@ -32,8 +29,8 @@
     }
 
     .footer-rrss {
-      margin-top: 5px;
-      margin-bottom: 5px;
+      margin-top: $margin-size-small;
+      margin-bottom: $margin-size-small;
       display: flex;
       justify-content: center;
       width: fit-content;

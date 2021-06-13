@@ -11,14 +11,24 @@ $bc-btn-green: #488174af;
 $bc-btn-cake: #c6a9a38e;
 $txt-btn-color: white;
 
+//margins
+$margin-size-normal: 10px;
+$margin-size-big: ($margin-size-normal * 2);
+$margin-size-small: ($margin-size-normal / 2);
+
+//paddings
+$padding-size-normal: 10px;
+$padding-size-big: ($padding-size-normal * 2);
+$padding-size-small: ($padding-size-normal / 2);
+
 //sizes
-$title-size: 2.2rem;
-$subtitle-size: 2rem;
-$nav-item-size: 1.5rem;
-$txt-btn-size-l: 1.8rem;
-$txt-btn-size-s: 1rem;
-$txt-size-m: 1.5rem;
-$txt-size-s: 1rem;
+$title-size: 2.5rem;
+$subtitle-size: ($title-size - 0.5);
+$nav-item-size: ($title-size - 1);
+$txt-btn-size-l: ($title-size - 0.5);
+$txt-btn-size-s: ($title-size - 1.5);
+$txt-size-m: ($title-size - 1);
+$txt-size-s: ($title-size - 1.5);
 
 //backgrounds
 $bc-cream: linear-gradient(90deg, white 0%, rgba(235, 216, 183, 0.179709) 27%);

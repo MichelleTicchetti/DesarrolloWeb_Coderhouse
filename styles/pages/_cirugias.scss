@@ -1,8 +1,8 @@
 .mainCirugia {
   width: 100%;
   height: auto;
-  margin-top: 5px;
-  margin-bottom: 5px;
+  margin-top: $margin-size-small;
+  margin-bottom: $margin-size-small;
 
   .section1Cirugia {
     &--cirugia {
@@ -23,10 +23,10 @@
 
 .bannerCirugia {
   height: 60vh;
-  background-image: url("/img/quirofano.jpg");
+  background-image: url("../../img/quirofano.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  margin-top: 5px;
-  margin-bottom: 5px;
+  margin-top: $margin-size-small;
+  margin-bottom: $margin-size-small;
 }

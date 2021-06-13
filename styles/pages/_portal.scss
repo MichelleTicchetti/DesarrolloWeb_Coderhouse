@@ -4,20 +4,20 @@
   background-repeat: no-repeat;
   background-position: bottom;
   height: 100vh;
-  margin-top: 5px;
-  margin-bottom: 5px;
+  margin-top: $margin-size-small;
+  margin-bottom: $margin-size-small;
 
   .section1 {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
-    margin-top: 50px;
+    margin-top: ($margin-size-big * 2)+10;
 
     .form--container {
-      margin: 20px;
-      padding: 10px;
+      margin: $margin-size-big;
+      padding: $padding-size-normal;
       border: 2px;
-      border-radius: 5px;
+      border-radius: $margin-size-small;
       background: $bc-green;
 
       .formulario {
@@ -33,9 +33,9 @@
         }
 
         .forgetPass {
-          margin: 10px;
+          margin: $margin-size-normal;
           h3 {
-            font-size: $txt-btn-size-s;
+            font-size: $txt-size-s;
             text-decoration: none;
           }
         }

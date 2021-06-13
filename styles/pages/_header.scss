@@ -1,15 +1,12 @@
 .navbar {
   background-color: $bc-header;
-  margin-left: 0px;
-  margin-right: 0px;
-  padding: 0px;
 
   .navbar-brand {
     margin: 0px;
     width: 30%;
 
     .logo-brand {
-      margin: 10px;
+      margin: $margin-size-normal;
       width: 220px;
       height: 60px;
     }
@@ -18,6 +15,6 @@
   .nav-item {
     text-align: center;
     font-size: $nav-item-size;
-    margin: 5px;
+    margin: $margin-size-big;
   }
 }
