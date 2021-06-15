@@ -1,20 +1,26 @@
-.navbar {
+.header {
+  width: 100%;
   background-color: $bc-header;
 
-  .navbar-brand {
-    margin: 0px;
-    width: 30%;
+  .navbar {
+    .navbar-brand {
+      width: max-content;
 
-    .logo-brand {
-      margin: $margin-size-normal;
-      width: 220px;
-      height: 60px;
+      .logo-brand {
+        margin: $margin-size-big;
+        width: 220px;
+        height: 60px;
+      }
     }
-  }
 
-  .nav-item {
-    text-align: center;
-    font-size: $nav-item-size;
-    margin: $margin-size-big;
+    .navbar-toggler {
+      margin: $margin-size-big;
+    }
+
+    .nav-item {
+      text-align: center;
+      font-size: $nav-item-size;
+      margin: $margin-size-big;
+    }
   }
 }

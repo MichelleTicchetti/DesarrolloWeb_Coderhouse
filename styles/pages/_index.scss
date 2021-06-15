@@ -1,71 +1,76 @@
 .mainIndex {
-  padding: 0px;
-}
-
-.bgimageIndex {
-  display: flex;
-  align-items: flex-end;
-  background-image: url("../../img/oftalmologo2.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
   margin-top: $margin-size-small;
   width: 100%;
-  height: 600px;
+  padding: 0px;
 
-  h5 {
-    color: $color-cake;
-    font-size: $title-size;
-    text-align: left;
-    margin: $margin-size-normal;
-    padding: 0px;
-  }
+  .bgimageIndex {
+    background-image: url("../../img/oftalmologo2.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 0px;
+    width: 100%;
+    height: 600px;
 
-  p {
-    color: $color-txt-default;
-    font-size: $txt-size-m;
-    text-align: left;
-    margin: $margin-size-normal;
-  }
-}
+    .welcome {
+      height: max-content;
+      width: max-content;
+    }
 
-.btn {
-  border: none;
-  text-align: center;
-  width: 100%;
-  font-size: $txt-btn-size-l;
-  background-color: $color-cake;
-  color: $txt-btn-color;
-}
-
-.ppage {
-  align-items: space-evenly;
-  text-align: center;
-
-  &--item {
-    padding: 0px;
-
-    h2 {
+    h5 {
+      color: $color-cake;
       font-size: $title-size;
-      color: $color-green;
-      margin-bottom: $margin-size-big;
+      text-align: left;
+      margin: $margin-size-normal;
+      padding: 0px;
     }
 
     p {
+      color: $color-txt-default;
       font-size: $txt-size-m;
+      text-align: left;
+      margin: $margin-size-normal;
     }
   }
-}
 
-.bpageIndex {
-  background: $bc-cream;
+  .btn {
+    border: none;
+    text-align: center;
+    width: 100%;
+    margin-top: $margin-size-small;
+    font-size: $txt-btn-size-l;
+    background-color: $color-cake;
+    color: $txt-btn-color;
+  }
 
-  .container-form {
-    width: 50%;
+  .ppage {
+    align-items: space-evenly;
+    text-align: center;
 
-    .legend-form {
-      text-align: center;
-      color: $color-txt-default;
+    &--item {
+      h2 {
+        font-size: $subtitle-size;
+        color: $color-green;
+        margin-bottom: $margin-size-big;
+      }
+
+      p {
+        font-size: $txt-size-s;
+      }
+    }
+  }
+
+  .bpageIndex {
+    margin: 0px;
+    background: $bc-cream;
+
+    .container-form {
+      width: 50%;
+
+      .legend-form {
+        text-align: center;
+        color: $color-txt-default;
+      }
     }
   }
 }

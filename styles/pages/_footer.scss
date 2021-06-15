@@ -1,19 +1,24 @@
 .footer {
   background-color: $bc-footer;
   margin-top: $margin-size-small;
+  padding: 0px;
 
   .footerRow {
     flex-flow: row wrap;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: center;
+    align-items: baseline;
 
     .footer-brand {
       margin-top: $margin-size-small;
       margin-bottom: $margin-size-small;
+      width: max-content;
+      padding: $padding-size-small;
+      margin: $margin-size-big;
 
       .logo-brand {
         margin: $margin-size-normal;
-        width: 220px;
+        padding: $padding-size-small;
+        width: 200px;
         height: 60px;
       }
     }
@@ -22,9 +27,11 @@
       margin-top: $margin-size-small;
       margin-bottom: $margin-size-small;
       text-align: center;
+      padding: $padding-size-small;
+      margin: $margin-size-big;
 
       h2 {
-        font-size: $txt-size-s;
+        font-size: $txt-size-xs;
       }
     }
 
@@ -34,12 +41,16 @@
       display: flex;
       justify-content: center;
       width: fit-content;
+      padding: 0px;
+      margin: $margin-size-big;
+
       a {
         list-style-type: none;
         text-decoration: none;
         width: auto;
 
         .logo-rrss {
+          margin: 5px;
           width: 40px;
           height: 40px;
         }

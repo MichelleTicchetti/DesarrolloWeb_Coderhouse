@@ -2,111 +2,122 @@
   margin: 0px;
   padding: 0px; }
 
-.navbar {
+.header {
+  width: 100%;
   background-color: #335b522d; }
-  .navbar .navbar-brand {
-    margin: 0px;
-    width: 30%; }
-    .navbar .navbar-brand .logo-brand {
-      margin: 10px;
+  .header .navbar .navbar-brand {
+    width: max-content; }
+    .header .navbar .navbar-brand .logo-brand {
+      margin: 20px;
       width: 220px;
       height: 60px; }
-  .navbar .nav-item {
+  .header .navbar .navbar-toggler {
+    margin: 20px; }
+  .header .navbar .nav-item {
     text-align: center;
     font-size: 1.5rem;
     margin: 20px; }
 
 .footer {
   background-color: #335b522d;
-  margin-top: 5px; }
+  margin-top: 5px;
+  padding: 0px; }
   .footer .footerRow {
     flex-flow: row wrap;
-    justify-content: space-between;
-    align-items: center; }
+    justify-content: center;
+    align-items: baseline; }
     .footer .footerRow .footer-brand {
       margin-top: 5px;
-      margin-bottom: 5px; }
+      margin-bottom: 5px;
+      width: max-content;
+      padding: 5px;
+      margin: 20px; }
       .footer .footerRow .footer-brand .logo-brand {
         margin: 10px;
-        width: 220px;
+        padding: 5px;
+        width: 200px;
         height: 60px; }
     .footer .footerRow .footer-copywrite {
       margin-top: 5px;
       margin-bottom: 5px;
-      text-align: center; }
+      text-align: center;
+      padding: 5px;
+      margin: 20px; }
       .footer .footerRow .footer-copywrite h2 {
-        font-size: 1rem; }
+        font-size: 0.7rem; }
     .footer .footerRow .footer-rrss {
       margin-top: 5px;
       margin-bottom: 5px;
       display: flex;
       justify-content: center;
-      width: fit-content; }
+      width: fit-content;
+      padding: 0px;
+      margin: 20px; }
       .footer .footerRow .footer-rrss a {
         list-style-type: none;
         text-decoration: none;
         width: auto; }
         .footer .footerRow .footer-rrss a .logo-rrss {
+          margin: 5px;
           width: 40px;
           height: 40px; }
 
 .mainIndex {
-  padding: 0px; }
-
-.bgimageIndex {
-  display: flex;
-  align-items: flex-end;
-  background-image: url("../../img/oftalmologo2.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
   margin-top: 5px;
   width: 100%;
-  height: 600px; }
-  .bgimageIndex h5 {
-    color: #c6a9a3;
-    font-size: 2.5rem;
-    text-align: left;
-    margin: 10px;
-    padding: 0px; }
-  .bgimageIndex p {
-    color: rgba(77, 52, 52, 0.541);
-    font-size: 1.5rem;
-    text-align: left;
-    margin: 10px; }
-
-.btn {
-  border: none;
-  text-align: center;
-  width: 100%;
-  font-size: 2rem;
-  background-color: #c6a9a3;
-  color: white; }
-
-.ppage {
-  align-items: space-evenly;
-  text-align: center; }
-  .ppage--item {
-    padding: 0px; }
-    .ppage--item h2 {
+  padding: 0px; }
+  .mainIndex .bgimageIndex {
+    background-image: url("../../img/oftalmologo2.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 0px;
+    width: 100%;
+    height: 600px; }
+    .mainIndex .bgimageIndex .welcome {
+      height: max-content;
+      width: max-content; }
+    .mainIndex .bgimageIndex h5 {
+      color: #c6a9a3;
       font-size: 2.5rem;
+      text-align: left;
+      margin: 10px;
+      padding: 0px; }
+    .mainIndex .bgimageIndex p {
+      color: rgba(77, 52, 52, 0.541);
+      font-size: 1.5rem;
+      text-align: left;
+      margin: 10px; }
+  .mainIndex .btn {
+    border: none;
+    text-align: center;
+    width: 100%;
+    margin-top: 5px;
+    font-size: 2rem;
+    background-color: #c6a9a3;
+    color: white; }
+  .mainIndex .ppage {
+    align-items: space-evenly;
+    text-align: center; }
+    .mainIndex .ppage--item h2 {
+      font-size: 2rem;
       color: #99bbad;
       margin-bottom: 20px; }
-    .ppage--item p {
-      font-size: 1.5rem; }
-
-.bpageIndex {
-  background: linear-gradient(90deg, white 0%, rgba(235, 216, 183, 0.179709) 27%); }
-  .bpageIndex .container-form {
-    width: 50%; }
-    .bpageIndex .container-form .legend-form {
-      text-align: center;
-      color: rgba(77, 52, 52, 0.541); }
+    .mainIndex .ppage--item p {
+      font-size: 1rem; }
+  .mainIndex .bpageIndex {
+    margin: 0px;
+    background: linear-gradient(90deg, white 0%, rgba(235, 216, 183, 0.179709) 27%); }
+    .mainIndex .bpageIndex .container-form {
+      width: 50%; }
+      .mainIndex .bpageIndex .container-form .legend-form {
+        text-align: center;
+        color: rgba(77, 52, 52, 0.541); }
 
 .mainCentro {
   margin-top: 5px;
   margin-bottom: 5px;
-  background: linear-gradient(90deg, white 0%, rgba(235, 216, 183, 0.179709) 27%); }
+  background: linear-gradient(90deg, white 0%, #c6a9a349); }
   .mainCentro h4 {
     font-size: 1.5rem;
     margin-top: 10px;
@@ -116,49 +127,45 @@
     text-align: left; }
 
 .mainEspecialidad {
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  align-items: center;
   margin-top: 5px;
-  margin-bottom: 5px;
-  background: linear-gradient(90deg, white 0%, rgba(235, 216, 183, 0.179709) 27%); }
-  .mainEspecialidad .section1 h2 {
-    background: linear-gradient(90deg, white 0%, rgba(51, 91, 82, 0.13209) 100%);
-    color: #488174c4;
-    font-size: 2rem;
-    text-align: center; }
-  .mainEspecialidad .section1 h3 {
-    font-size: 1rem;
-    font-weight: bolder;
-    text-align: center; }
-  .mainEspecialidad .section1 h4 {
-    font-size: 1rem;
-    font-weight: bolder;
-    text-align: center;
-    margin: 10px; }
-  .mainEspecialidad .section1 h5 {
-    margin: 10px;
-    font-size: 1rem;
-    font-weight: bolder;
-    text-align: center; }
-    .mainEspecialidad .section1 h5 a {
-      text-decoration: none;
-      color: #c6a9a3;
+  margin-bottom: 5px; }
+  .mainEspecialidad .especialidad {
+    margin-bottom: 20px; }
+    .mainEspecialidad .especialidad--color {
+      background: linear-gradient(90deg, white 0%, rgba(235, 216, 183, 0.179709) 27%); }
+    .mainEspecialidad .especialidad h2 {
+      color: #488174c4;
+      font-size: 2rem;
+      text-align: center; }
+    .mainEspecialidad .especialidad h3 {
+      font-size: 1rem;
+      font-weight: bolder;
+      text-align: center; }
+    .mainEspecialidad .especialidad h4 {
+      font-size: 1rem;
+      font-weight: bolder;
+      text-align: center;
       margin: 10px; }
-  .mainEspecialidad .section1 img {
-    width: 150px;
-    margin: 10px; }
-  .mainEspecialidad .section1 img:hover {
-    transform: scale(2); }
+    .mainEspecialidad .especialidad h5 {
+      margin: 10px;
+      font-size: 1rem;
+      font-weight: bolder;
+      text-align: center; }
+      .mainEspecialidad .especialidad h5 a {
+        text-decoration: none;
+        color: #c6a9a3;
+        margin: 10px; }
+    .mainEspecialidad .especialidad img {
+      width: 150px;
+      margin: 10px; }
+    .mainEspecialidad .especialidad img:hover {
+      transform: scale(2); }
 
 .mainEstudio {
   width: 100%;
   margin-top: 5px;
-  margin-bottom: 5px;
-  background: linear-gradient(90deg, white 0%, rgba(235, 216, 183, 0.179709) 27%); }
+  margin-bottom: 5px; }
   .mainEstudio h2 {
-    background: linear-gradient(90deg, white 0%, rgba(51, 91, 82, 0.13209) 100%);
     color: #488174c4;
     font-size: 2rem;
     text-align: left;
@@ -184,7 +191,6 @@
   margin-top: 5px;
   margin-bottom: 5px; }
   .mainCirugia .section1Cirugia--cirugia h2 {
-    background: linear-gradient(90deg, white 0%, rgba(51, 91, 82, 0.13209) 100%);
     color: #488174c4;
     font-size: 1.5rem;
     text-align: center; }

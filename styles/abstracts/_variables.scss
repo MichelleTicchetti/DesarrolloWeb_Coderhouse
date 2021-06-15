@@ -1,6 +1,7 @@
 //colours
 $bc-header: #335b522d;
 $bc-footer: #335b522d;
+$bc-carousel-caption: rgba(198, 169, 163, 0.397);
 $title-color: #99bbad;
 $color-cake: #c6a9a3;
 $color-green: #99bbad;
@@ -29,12 +30,20 @@ $txt-btn-size-l: ($title-size - 0.5);
 $txt-btn-size-s: ($title-size - 1.5);
 $txt-size-m: ($title-size - 1);
 $txt-size-s: ($title-size - 1.5);
+$txt-size-xs: ($title-size - 1.8);
 
 //backgrounds
 $bc-cream: linear-gradient(90deg, white 0%, rgba(235, 216, 183, 0.179709) 27%);
+$bc-cream--light: linear-gradient(
+  90deg,
+  white 0%,
+  rgba(235, 216, 183, 0.068) 27%
+);
 $bc-green: linear-gradient(
   90deg,
   rgba(255, 255, 255, 1) 0%,
   rgba(51, 91, 82, 0.13209033613445376) 100%
 );
 $bc-pink: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, #c6a9a3ab);
+
+$bc-pink--light: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, #c6a9a349);
