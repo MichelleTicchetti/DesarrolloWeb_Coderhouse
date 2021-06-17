@@ -1,3 +1,5 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
 * {
   margin: 0px;
   padding: 0px; }
@@ -114,27 +116,52 @@
         text-align: center;
         color: rgba(77, 52, 52, 0.541); }
 
-.mainCentro {
-  margin-top: 5px;
-  margin-bottom: 5px;
-  background: linear-gradient(90deg, white 0%, #c6a9a349); }
-  .mainCentro h4 {
-    font-size: 1.5rem;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    padding: 10px;
-    font-weight: lighter;
-    text-align: left; }
-
-.mainEspecialidad {
+.container-fluid-main {
+  background-color: #c6a9a349;
   margin-top: 5px;
   margin-bottom: 5px; }
+  .container-fluid-main .novedades {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: baseline;
+    text-align: center; }
+    .container-fluid-main .novedades--campañas h2 {
+      padding: 20px;
+      font-size: 2rem;
+      font-family: "Roboto", sans-serif;
+      text-decoration: dotted;
+      font-weight: bold; }
+      .container-fluid-main .novedades--campañas h2 .badge {
+        margin: 10px;
+        padding: 10px; }
+    .container-fluid-main .novedades--contacto h2 {
+      margin-top: 20px;
+      margin-bottom: 5px;
+      padding: 20px;
+      font-size: 1.5rem;
+      font-family: "Roboto", sans-serif; }
+  .container-fluid-main .carousel--container {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 0px; }
+    .container-fluid-main .carousel--container--item {
+      padding: 0px; }
+
+.mainEspecialidad {
+  background-color: #c6a9a349;
+  margin: 0px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding: 0px;
+  width: 100%; }
   .mainEspecialidad .especialidad {
-    margin-bottom: 20px; }
-    .mainEspecialidad .especialidad--color {
-      background: linear-gradient(90deg, white 0%, rgba(235, 216, 183, 0.179709) 27%); }
+    width: 100%;
+    margin: 0px; }
     .mainEspecialidad .especialidad h2 {
-      color: #488174c4;
+      margin-top: 20px;
+      margin-bottom: 5px;
+      color: #99bbad;
       font-size: 2rem;
       text-align: center; }
     .mainEspecialidad .especialidad h3 {
@@ -153,7 +180,7 @@
       text-align: center; }
       .mainEspecialidad .especialidad h5 a {
         text-decoration: none;
-        color: #c6a9a3;
+        color: #488174c4;
         margin: 10px; }
     .mainEspecialidad .especialidad img {
       width: 150px;
@@ -164,25 +191,27 @@
 .mainEstudio {
   width: 100%;
   margin-top: 5px;
-  margin-bottom: 5px; }
-  .mainEstudio h2 {
-    color: #488174c4;
-    font-size: 2rem;
-    text-align: left;
-    margin-top: 10px;
-    margin-bottom: 10px; }
-  .mainEstudio--lista {
-    list-style: none;
-    font-size: 1rem;
-    text-align: left; }
+  margin-bottom: 5px;
+  background: linear-gradient(90deg, white 0%, rgba(235, 216, 183, 0.179709) 27%); }
+  .mainEstudio--items {
+    align-items: center; }
+    .mainEstudio--items .btn-turno {
+      border: none;
+      text-align: center;
+      font-size: 1rem;
+      background-color: #c6a9a3;
+      color: white; }
+    .mainEstudio--items-lista {
+      list-style: none;
+      font-size: 1.5rem;
+      text-align: left; }
 
-.bannerEstudio {
+.banner {
   height: 50vh;
-  background-image: url("../../img/slide1.jpg");
+  background-image: url("../../img/slide4.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  margin-top: 5px;
   margin-bottom: 5px; }
 
 .mainCirugia {

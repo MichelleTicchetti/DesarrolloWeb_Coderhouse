@@ -1,16 +1,19 @@
 .mainEspecialidad {
+  background-color: $bc-news;
+  margin: 0px;
   margin-top: $margin-size-small;
   margin-bottom: $margin-size-small;
+  padding: 0px;
+  width: 100%;
 
   .especialidad {
-    margin-bottom: $margin-size-big;
-
-    &--color {
-      background: $bc-cream;
-    }
+    width: 100%;
+    margin: 0px;
 
     h2 {
-      color: $color-boldgreen;
+      margin-top: $margin-size-big;
+      margin-bottom: $margin-size-small;
+      color: $color-green;
       font-size: $subtitle-size;
       text-align: center;
     }
@@ -36,7 +39,7 @@
 
       a {
         text-decoration: none;
-        color: $color-cake;
+        color: $color-boldgreen;
         margin: $margin-size-normal;
       }
     }

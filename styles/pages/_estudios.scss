@@ -2,28 +2,31 @@
   width: 100%;
   margin-top: $margin-size-small;
   margin-bottom: $margin-size-small;
+  background: $bc-cream;
 
-  h2 {
-    color: $color-boldgreen;
-    font-size: $subtitle-size;
-    text-align: left;
-    margin-top: $margin-size-normal;
-    margin-bottom: $margin-size-normal;
-  }
+  &--items {
+    align-items: center;
 
-  &--lista {
-    list-style: none;
-    font-size: $txt-size-s;
-    text-align: left;
+    .btn-turno {
+      border: none;
+      text-align: center;
+      font-size: $txt-btn-size-s;
+      background-color: $color-cake;
+      color: $txt-btn-color;
+    }
+
+    &-lista {
+      list-style: none;
+      font-size: $txt-size-m;
+      text-align: left;
+    }
   }
 }
-
-.bannerEstudio {
+.banner {
   height: 50vh;
-  background-image: url("../../img/slide1.jpg");
+  background-image: url("../../img/slide4.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  margin-top: $margin-size-small;
   margin-bottom: $margin-size-small;
 }
