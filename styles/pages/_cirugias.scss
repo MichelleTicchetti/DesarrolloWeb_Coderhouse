@@ -9,9 +9,9 @@
   .section1Cirugia {
     @include margpad(0, 0);
     &--cirugia {
-      margin-top: $margin-size-small;
-      margin-bottom: $margin-size-small;
       h2 {
+        margin-top: $margin-size-small;
+        margin-bottom: $margin-size-small;
         color: $color-green;
         font-size: $txt-size-m;
         text-align: left;

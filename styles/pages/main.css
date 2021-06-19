@@ -252,22 +252,21 @@
   .mainCirugia .section1Cirugia {
     margin: 0;
     padding: 0; }
-    .mainCirugia .section1Cirugia--cirugia {
+    .mainCirugia .section1Cirugia--cirugia h2 {
+      margin-top: 5px;
+      margin-bottom: 5px;
+      color: #99bbad;
+      font-size: 1.5rem;
+      text-align: left;
       margin-top: 5px;
       margin-bottom: 5px; }
-      .mainCirugia .section1Cirugia--cirugia h2 {
-        color: #99bbad;
-        font-size: 1.5rem;
+    .mainCirugia .section1Cirugia--cirugia ul {
+      margin: 0;
+      padding: 0; }
+      .mainCirugia .section1Cirugia--cirugia ul li {
+        list-style: none;
         text-align: left;
-        margin-top: 5px;
-        margin-bottom: 5px; }
-      .mainCirugia .section1Cirugia--cirugia ul {
-        margin: 0;
-        padding: 0; }
-        .mainCirugia .section1Cirugia--cirugia ul li {
-          list-style: none;
-          text-align: left;
-          font-size: 1rem; }
+        font-size: 1rem; }
 
 .bannerCirugia {
   height: 60vh;
