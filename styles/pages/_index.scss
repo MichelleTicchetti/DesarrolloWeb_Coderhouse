@@ -7,12 +7,11 @@
 
   .bgimageIndex {
     @include margpad(0, 0);
+    @include dimension(100%, 600px);
     background-image: url("../../img/oftalmologo2.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    width: 100%;
-    height: 600px;
 
     .welcome {
       h5 {
@@ -52,7 +51,7 @@
   }
 
   .ppage {
-    width: 100%;
+    @include dimension(100%, auto);
     @include margpad(0, 0);
     align-items: space-evenly;
     text-align: center;
@@ -71,12 +70,12 @@
   }
 
   .bpageIndex {
-    width: 100%;
+    @include dimension(100%, auto);
     @include margpad(0, 0);
     background: $bc-cream;
 
     .container-form {
-      width: 50%;
+      @include dimension(50%, auto);
 
       .legend-form {
         text-align: center;

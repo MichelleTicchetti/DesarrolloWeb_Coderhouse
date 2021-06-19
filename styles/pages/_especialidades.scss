@@ -7,8 +7,8 @@
 
   .especialidad {
     @include margpad(0, 0);
+    @include dimension(100%, auto);
     text-align: center;
-    width: 100%;
 
     h2 {
       @include margpad(0, 0);
@@ -45,7 +45,7 @@
     }
 
     img {
-      width: 150px;
+      @include dimension(150px, auto);
       margin: $margin-size-normal;
     }
 

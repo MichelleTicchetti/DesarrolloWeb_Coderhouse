@@ -19,8 +19,7 @@
       .logo-brand {
         margin: $margin-size-normal;
         padding: $padding-size-small;
-        width: 200px;
-        height: 70px;
+        @include dimension(220px, 70px);
       }
     }
 
@@ -51,9 +50,8 @@
         width: auto;
 
         .logo-rrss {
-          margin: 5px;
-          width: 40px;
-          height: 40px;
+          margin: $margin-size-small;
+          @include dimension(40px, 40px);
         }
       }
     }

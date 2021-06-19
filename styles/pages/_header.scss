@@ -1,6 +1,6 @@
 .header {
   @include margpad(0, 0);
-  width: 100%;
+  @include dimension(100%, auto);
   background-color: $bc-header;
 
   .navbar {
@@ -8,9 +8,8 @@
       width: max-content;
 
       .logo-brand {
+        @include dimension(220px, 70px);
         margin: $margin-size-big;
-        width: 220px;
-        height: 70px;
       }
     }
 

@@ -1,7 +1,6 @@
 .mainCirugia {
   @include margpad(0, 0);
-  width: 100%;
-  height: auto;
+  @include dimension(100%, auto);
   margin-top: $margin-size-small;
   margin-bottom: $margin-size-small;
   background: $bc-cream;
@@ -33,7 +32,7 @@
 }
 
 .bannerCirugia {
-  height: 60vh;
+  @include dimension(100%, 60vh);
   background-image: url("../../img/quirofano.jpg");
   background-size: cover;
   background-repeat: no-repeat;

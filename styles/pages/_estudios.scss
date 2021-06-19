@@ -1,7 +1,6 @@
 .mainEstudio {
   @include margpad(0, 0);
-  width: 100%;
-  height: auto;
+  @include dimension(100%, auto);
   margin-top: $margin-size-small;
   margin-bottom: $margin-size-small;
   background: $bc-cream;
@@ -9,8 +8,7 @@
   .section1Estudio {
     @include margpad(0, 0);
     &--estudio {
-      margin: 0px;
-      padding: 0px;
+      @include margpad(0, 0);
       margin-top: $margin-size-small;
       margin-bottom: $margin-size-small;
 
@@ -23,8 +21,7 @@
       }
 
       ul {
-        margin: 0px;
-        padding: 0px;
+        @include margpad(0, 0);
       }
 
       li {
@@ -39,7 +36,7 @@
 }
 
 .bannerEstudios {
-  height: 60vh;
+  @include dimension(100%, 60vh);
   background-image: url("../../img/slide1.jpg");
   background-size: cover;
   background-repeat: no-repeat;
