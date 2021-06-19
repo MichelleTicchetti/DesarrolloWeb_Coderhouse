@@ -1,13 +1,17 @@
 .mainPortal {
+  @include margpad(0, 0);
+  width: 100%;
+  height: 100vh;
   background-image: url("/img/img_3.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: bottom;
-  height: 100vh;
+
   margin-top: $margin-size-small;
   margin-bottom: $margin-size-small;
 
   .section1 {
+    @include margpad(0, 0);
     display: flex;
     flex-direction: row;
     justify-content: flex-end;

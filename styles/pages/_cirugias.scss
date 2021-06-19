@@ -1,15 +1,20 @@
 .mainCirugia {
+  @include margpad(0, 0);
   width: 100%;
   height: auto;
   margin-top: $margin-size-small;
   margin-bottom: $margin-size-small;
+  background: $bc-cream;
 
   .section1Cirugia {
+    @include margpad(0, 0);
     &--cirugia {
       h2 {
-        color: $color-boldgreen;
+        color: $color-green;
         font-size: $txt-size-m;
         text-align: center;
+        margin-top: $margin-size-small;
+        margin-bottom: $margin-size-small;
       }
       li {
         list-style: none;

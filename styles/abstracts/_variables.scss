@@ -14,11 +14,13 @@ $bc-btn-cake: #c6a9a38e;
 $txt-btn-color: white;
 
 //margins
+$margin-default: 0px;
 $margin-size-normal: 10px;
 $margin-size-big: ($margin-size-normal * 2);
 $margin-size-small: ($margin-size-normal / 2);
 
 //paddings
+$padding-default: 0px;
 $padding-size-normal: 10px;
 $padding-size-big: ($padding-size-normal * 2);
 $padding-size-small: ($padding-size-normal / 2);
@@ -48,3 +50,9 @@ $bc-green: linear-gradient(
 $bc-pink: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, #c6a9a3ab);
 
 $bc-pink--light: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, #c6a9a349);
+
+//mixins
+@mixin margpad($margin-default, $padding-default) {
+  margin: $margin-default;
+  padding: $padding-default;
+}

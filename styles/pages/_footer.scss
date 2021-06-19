@@ -1,9 +1,10 @@
 .footer {
+  @include margpad(0, 0);
   background-color: $bc-footer;
   margin-top: $margin-size-small;
-  padding: 0px;
 
   .footerRow {
+    @include margpad(0, 0);
     flex-flow: row wrap;
     justify-content: center;
     align-items: baseline;

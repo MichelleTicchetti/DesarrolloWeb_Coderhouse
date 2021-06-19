@@ -1,30 +1,49 @@
 .mainEstudio {
+  @include margpad(0, 0);
   width: 100%;
+  height: auto;
   margin-top: $margin-size-small;
   margin-bottom: $margin-size-small;
   background: $bc-cream;
 
-  &--items {
-    align-items: center;
-    justify-content: center;
-    margin-top: $margin-size-small;
-    margin-bottom: $margin-size-small;
+  .section1Estudio {
+    @include margpad(0, 0);
+    &--estudio {
+      margin: 0px;
+      padding: 0px;
+      margin-top: $margin-size-small;
+      margin-bottom: $margin-size-small;
 
-    .btn-turno {
-      border: none;
-      text-align: center;
-      font-size: $txt-btn-size-s;
-      background-color: $color-cake;
-      color: $txt-btn-color;
-    }
+      h2 {
+        color: $color-green;
+        font-size: $subtitle-size;
+        text-align: center;
+        margin-top: $margin-size-big;
+        margin-bottom: $margin-size-big;
+      }
 
-    &-lista {
-      list-style: none;
-      font-size: $txt-size-m;
+      ul {
+        margin: 0px;
+        padding: 0px;
+      }
+
+      li {
+        margin-top: $margin-size-big;
+        margin-bottom: $margin-size-big;
+        list-style: none;
+        text-align: center;
+        font-size: $txt-size-m;
+      }
     }
   }
 }
 
-.banner {
+.bannerEstudios {
+  height: 60vh;
+  background-image: url("../../img/slide1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: left;
+  margin-top: $margin-size-small;
   margin-bottom: $margin-size-small;
 }

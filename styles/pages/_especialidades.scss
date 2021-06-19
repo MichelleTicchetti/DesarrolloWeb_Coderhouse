@@ -1,15 +1,11 @@
 .mainEspecialidad {
-  background-color: $bc-news;
-  margin: 0px;
+  width: 100%;
+  @include margpad(0, 0);
+  background: $bc-cream;
   margin-top: $margin-size-small;
   margin-bottom: $margin-size-small;
-  padding: 0px;
-  width: 100%;
 
   .especialidad {
-    width: 100%;
-    margin: 0px;
-
     h2 {
       margin-top: $margin-size-big;
       margin-bottom: $margin-size-small;
@@ -39,7 +35,7 @@
 
       a {
         text-decoration: none;
-        color: $color-boldgreen;
+        color: $color-cake;
         margin: $margin-size-normal;
       }
     }

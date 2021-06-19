@@ -1,9 +1,11 @@
 .container-fluid-main {
+  @include margpad(0, 0);
   background-color: $bc-news;
   margin-top: $margin-size-small;
   margin-bottom: $margin-size-small;
 
   .novedades {
+    @include margpad(0, 0);
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-between;
@@ -19,6 +21,7 @@
         font-weight: bold;
 
         .badge {
+          width: 30%;
           margin: $margin-size-normal;
           padding: $padding-size-normal;
         }
@@ -37,12 +40,12 @@
   }
 
   .carousel--container {
+    @include margpad(0, 0);
     margin-top: $margin-size-small;
     margin-bottom: $margin-size-small;
-    padding: 0px;
 
     &--item {
-      padding: 0px;
+      @include margpad(0, 0);
     }
   }
 }
