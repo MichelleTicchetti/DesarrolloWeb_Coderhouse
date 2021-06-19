@@ -5,47 +5,22 @@
   margin-bottom: $margin-size-small;
 
   .novedades {
-    @include margpad(0, 0);
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: space-between;
-    align-items: baseline;
-    text-align: center;
-
-    &--campañas {
-      h2 {
-        padding: $padding-size-big;
-        font-size: $subtitle-size;
-        font-family: "Roboto", sans-serif;
-        text-decoration: dotted;
-        font-weight: bold;
-
-        .badge {
-          width: 100%;
-          margin: $margin-size-normal;
-          padding: $padding-size-normal;
-        }
-      }
-    }
-
-    &--contacto {
-      h2 {
-        margin-top: $margin-size-big;
-        margin-bottom: $margin-size-small;
-        padding: $padding-size-big;
-        font-size: $txt-size-m;
-        font-family: "Roboto", sans-serif;
-      }
-    }
-  }
-
-  .carousel--container {
-    @include margpad(0, 0);
     margin-top: $margin-size-small;
     margin-bottom: $margin-size-small;
-
-    &--item {
-      @include margpad(0, 0);
+    h2 {
+      padding: $padding-size-big;
+      font-size: $txt-size-s;
+      text-align: center;
     }
+  }
+}
+
+.carousel--container {
+  @include margpad(0, 0);
+  margin-top: $margin-size-small;
+  margin-bottom: $margin-size-small;
+
+  &--item {
+    @include margpad(0, 0);
   }
 }
