@@ -148,22 +148,14 @@
   background-color: #c6a9a349;
   margin-top: 5px;
   margin-bottom: 5px; }
-  .container-fluid-main .novedades {
+  .container-fluid-main .carousel--container {
+    margin: 0;
+    padding: 0;
     margin-top: 5px;
     margin-bottom: 5px; }
-    .container-fluid-main .novedades h2 {
-      padding: 20px;
-      font-size: 1rem;
-      text-align: center; }
-
-.carousel--container {
-  margin: 0;
-  padding: 0;
-  margin-top: 5px;
-  margin-bottom: 5px; }
-  .carousel--container--item {
-    margin: 0;
-    padding: 0; }
+    .container-fluid-main .carousel--container--item {
+      margin: 0;
+      padding: 0; }
 
 .mainEspecialidad {
   width: 100%;

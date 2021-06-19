@@ -4,23 +4,13 @@
   margin-top: $margin-size-small;
   margin-bottom: $margin-size-small;
 
-  .novedades {
+  .carousel--container {
+    @include margpad(0, 0);
     margin-top: $margin-size-small;
     margin-bottom: $margin-size-small;
-    h2 {
-      padding: $padding-size-big;
-      font-size: $txt-size-s;
-      text-align: center;
+
+    &--item {
+      @include margpad(0, 0);
     }
-  }
-}
-
-.carousel--container {
-  @include margpad(0, 0);
-  margin-top: $margin-size-small;
-  margin-bottom: $margin-size-small;
-
-  &--item {
-    @include margpad(0, 0);
   }
 }
