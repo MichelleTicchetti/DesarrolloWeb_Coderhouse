@@ -194,7 +194,10 @@
   margin-bottom: 5px;
   background: linear-gradient(90deg, white 0%, rgba(235, 216, 183, 0.179709) 27%); }
   .mainEstudio--items {
-    align-items: center; }
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+    margin-bottom: 5px; }
     .mainEstudio--items .btn-turno {
       border: none;
       text-align: center;
@@ -203,15 +206,9 @@
       color: white; }
     .mainEstudio--items-lista {
       list-style: none;
-      font-size: 1.5rem;
-      text-align: left; }
+      font-size: 1.5rem; }
 
 .banner {
-  height: 50vh;
-  background-image: url("../../img/slide4.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
   margin-bottom: 5px; }
 
 .mainCirugia {

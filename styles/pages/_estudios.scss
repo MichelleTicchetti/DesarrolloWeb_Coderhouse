@@ -6,6 +6,9 @@
 
   &--items {
     align-items: center;
+    justify-content: center;
+    margin-top: $margin-size-small;
+    margin-bottom: $margin-size-small;
 
     .btn-turno {
       border: none;
@@ -18,15 +21,10 @@
     &-lista {
       list-style: none;
       font-size: $txt-size-m;
-      text-align: left;
     }
   }
 }
+
 .banner {
-  height: 50vh;
-  background-image: url("../../img/slide4.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
   margin-bottom: $margin-size-small;
 }
