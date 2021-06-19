@@ -9,17 +9,24 @@
   .section1Cirugia {
     @include margpad(0, 0);
     &--cirugia {
+      margin-top: $margin-size-small;
+      margin-bottom: $margin-size-small;
       h2 {
         color: $color-green;
         font-size: $txt-size-m;
-        text-align: center;
+        text-align: left;
         margin-top: $margin-size-small;
         margin-bottom: $margin-size-small;
       }
-      li {
-        list-style: none;
-        text-align: left;
-        font-size: $txt-size-s;
+
+      ul {
+        @include margpad(0, 0);
+
+        li {
+          list-style: none;
+          text-align: left;
+          font-size: $txt-size-s;
+        }
       }
     }
   }

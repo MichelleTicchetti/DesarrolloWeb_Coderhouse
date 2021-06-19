@@ -10,7 +10,7 @@
       .logo-brand {
         margin: $margin-size-big;
         width: 220px;
-        height: 60px;
+        height: 70px;
       }
     }
 
@@ -19,9 +19,9 @@
     }
 
     .nav-item {
+      @include margpad(0, 0);
       text-align: center;
       font-size: $nav-item-size;
-      margin: $margin-size-big;
     }
   }
 }

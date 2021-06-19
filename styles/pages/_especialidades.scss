@@ -6,7 +6,12 @@
   margin-bottom: $margin-size-small;
 
   .especialidad {
+    @include margpad(0, 0);
+    text-align: center;
+    width: 100%;
+
     h2 {
+      @include margpad(0, 0);
       margin-top: $margin-size-big;
       margin-bottom: $margin-size-small;
       color: $color-green;
@@ -28,7 +33,6 @@
     }
 
     h5 {
-      margin: $margin-size-normal;
       font-size: $txt-size-s;
       font-weight: bolder;
       text-align: center;
