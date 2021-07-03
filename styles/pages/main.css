@@ -187,12 +187,12 @@
       .container-fluid-main .card--container .card--container--card .card-body {
         text-align: center; }
         .container-fluid-main .card--container .card--container--card .card-body .card-title {
-          color: #99bbad;
+          color: #488174c4;
           font-size: 2rem; }
         .container-fluid-main .card--container .card--container--card .card-body .card-link {
           text-decoration: none;
           cursor: pointer;
-          color: rgba(77, 52, 52, 0.541); }
+          color: #d8a196; }
 
 .mainEspecialidad {
   width: 100%;

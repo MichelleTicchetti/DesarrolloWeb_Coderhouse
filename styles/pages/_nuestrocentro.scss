@@ -50,14 +50,14 @@
         text-align: center;
 
         .card-title {
-          color: $color-green;
+          color: $color-boldgreen;
           font-size: $subtitle-size;
         }
 
         .card-link {
           text-decoration: none;
           cursor: pointer;
-          color: $color-txt-default;
+          color: $color-boldpink;
         }
       }
     }
