@@ -10,47 +10,57 @@
     @include dimension(100%, auto);
     text-align: center;
 
-    h2 {
-      @include margpad(0, 0);
-      margin-top: $margin-size-big;
-      margin-bottom: $margin-size-small;
-      color: $color-green;
-      font-size: $subtitle-size;
-      text-align: center;
-    }
+    &--item--container {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
 
-    h3 {
-      font-size: $txt-size-s;
-      font-weight: bolder;
-      text-align: center;
-    }
+      div {
+        width: auto;
+        h3 {
+          font-size: $txt-size-s;
+          font-weight: bolder;
+          text-align: center;
+        }
 
-    h4 {
-      font-size: $txt-size-s;
-      font-weight: bolder;
-      text-align: center;
-      margin: $margin-size-normal;
-    }
+        h4 {
+          font-size: $txt-size-s;
+          font-weight: bolder;
+          text-align: center;
+          margin: $margin-size-normal;
+        }
 
-    h5 {
-      font-size: $txt-size-s;
-      font-weight: bolder;
-      text-align: center;
+        h5 {
+          font-size: $txt-size-s;
+          font-weight: bolder;
+          text-align: center;
 
-      a {
-        text-decoration: none;
-        color: $color-cake;
-        margin: $margin-size-normal;
+          a {
+            text-decoration: none;
+            color: $color-cake;
+            margin: $margin-size-normal;
+          }
+        }
+
+        img {
+          @include dimension(150px, auto);
+          margin: $margin-size-normal;
+        }
+
+        img:hover {
+          transform: scale(2);
+        }
       }
     }
 
-    img {
-      @include dimension(150px, auto);
-      margin: $margin-size-normal;
-    }
-
-    img:hover {
-      transform: scale(2);
+    h2 {
+      margin-top: $margin-size-big;
+      margin-bottom: $margin-size-big;
+      padding: 0;
+      color: $color-green;
+      font-size: $subtitle-size;
+      text-align: center;
     }
   }
 }

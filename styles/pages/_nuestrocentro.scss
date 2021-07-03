@@ -13,13 +13,24 @@
       @include margpad(0, 0);
 
       .carousel-inner {
-        height: 60vh;
+        height: $big-screen-carousel;
+
+        @media only screen and (max-width: 770px) {
+          height: $small-screen-carousel;
+        }
 
         .carousel-item {
-          height: 60vh;
+          height: $big-screen-carousel;
+
+          @media only screen and (max-width: 770px) {
+            height: $small-screen-carousel;
+          }
 
           img {
-            height: 60vh;
+            height: $big-screen-carousel;
+            @media only screen and (max-width: 770px) {
+              height: $small-screen-carousel;
+            }
           }
         }
       }

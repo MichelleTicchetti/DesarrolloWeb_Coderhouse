@@ -36,7 +36,7 @@
 }
 
 .bannerEstudios {
-  @include dimension(100%, 60vh);
+  @include dimension(100%, 40vh);
   background-image: url("../../img/slide1.jpg");
   background-size: cover;
   background-repeat: no-repeat;

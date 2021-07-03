@@ -33,6 +33,8 @@ $txt-btn-size-m: ($title-size - 1);
 $txt-size-m: ($title-size - 1);
 $txt-size-s: ($title-size - 1.5);
 $txt-size-xs: ($title-size - 1.8);
+$big-screen-carousel: 100vh;
+$small-screen-carousel: 40vh;
 
 //backgrounds
 $bc-cream: linear-gradient(90deg, white 0%, rgba(235, 216, 183, 0.179709) 27%);
