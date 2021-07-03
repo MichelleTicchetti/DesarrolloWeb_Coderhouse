@@ -1,6 +1,6 @@
 .container-fluid-main {
   @include margpad(0, 0);
-  background-color: $bc-news;
+  background: $bc-cream;
   margin-top: $margin-size-small;
   margin-bottom: $margin-size-small;
 
@@ -11,6 +11,44 @@
 
     &--item {
       @include margpad(0, 0);
+
+      .carousel-inner {
+        height: 60vh;
+
+        .carousel-item {
+          height: 60vh;
+
+          img {
+            height: 60vh;
+          }
+        }
+      }
+    }
+  }
+
+  .card--container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: baseline;
+
+    .card {
+      background-color: rgba(255, 255, 255, 0);
+      border: none;
+
+      .card-body {
+        text-align: center;
+
+        .card-title {
+          color: $color-green;
+          font-size: $subtitle-size;
+        }
+
+        .card-link {
+          text-decoration: none;
+          cursor: pointer;
+          color: $color-txt-default;
+        }
+      }
     }
   }
 }

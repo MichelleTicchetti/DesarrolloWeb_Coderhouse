@@ -4,6 +4,9 @@
   background-color: $bc-header;
 
   .navbar {
+    .navbar-toggler {
+      background-color: $bc-header;
+    }
     .navbar-brand {
       width: max-content;
 
