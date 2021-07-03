@@ -181,15 +181,15 @@
     display: flex;
     justify-content: space-evenly;
     align-items: baseline; }
-    .container-fluid-main .card--container .card {
-      background-color: rgba(255, 255, 255, 0);
-      border: none; }
-      .container-fluid-main .card--container .card .card-body {
+    .container-fluid-main .card--container .card--container--card {
+      border: none;
+      background-color: linear-gradient(90deg, white 0%, rgba(235, 216, 183, 0.179709) 27%); }
+      .container-fluid-main .card--container .card--container--card .card-body {
         text-align: center; }
-        .container-fluid-main .card--container .card .card-body .card-title {
+        .container-fluid-main .card--container .card--container--card .card-body .card-title {
           color: #99bbad;
           font-size: 2rem; }
-        .container-fluid-main .card--container .card .card-body .card-link {
+        .container-fluid-main .card--container .card--container--card .card-body .card-link {
           text-decoration: none;
           cursor: pointer;
           color: rgba(77, 52, 52, 0.541); }
