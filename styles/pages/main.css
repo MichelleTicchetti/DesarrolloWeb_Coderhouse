@@ -180,7 +180,7 @@
       padding: 0;
       display: flex;
       justify-content: space-evenly;
-      align-items: center;
+      align-items: baseline;
       flex-wrap: wrap; }
       .container-fluid-main .container-main .card--container .card--container--card {
         border: none;
@@ -194,6 +194,17 @@
             text-decoration: none;
             cursor: pointer;
             color: #d8a196; }
+      .container-fluid-main .container-main .card--container hr {
+        background-color: #488174c4;
+        height: 10px;
+        margin-left: 0%;
+        width: 50%; }
+      .container-fluid-main .container-main .card--container .prepagas {
+        margin-top: 5px;
+        margin-bottom: 5px;
+        text-align: center;
+        font-size: 1rem;
+        color: rgba(77, 52, 52, 0.541); }
 
 .mainEspecialidad {
   width: 100%;

@@ -40,7 +40,7 @@
       @include margpad(0, 0);
       display: flex;
       justify-content: space-evenly;
-      align-items: center;
+      align-items: baseline;
       flex-wrap: wrap;
 
       .card--container--card {
@@ -61,6 +61,21 @@
             color: $color-boldpink;
           }
         }
+      }
+
+      hr {
+        background-color: $color-boldgreen;
+        height: 10px;
+        margin-left: 0%;
+        width: 50%;
+      }
+
+      .prepagas {
+        margin-top: $margin-size-small;
+        margin-bottom: $margin-size-small;
+        text-align: center;
+        font-size: $txt-size-s;
+        color: $color-txt-default;
       }
     }
   }
