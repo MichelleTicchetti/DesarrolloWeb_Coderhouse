@@ -1,63 +1,65 @@
 .container-fluid-main {
-  @include margpad(0, 0);
   background: $bc-cream;
   margin-top: $margin-size-small;
   margin-bottom: $margin-size-small;
 
-  .carousel--container {
+  .container-main {
     @include margpad(0, 0);
-    margin-top: $margin-size-small;
-    margin-bottom: $margin-size-small;
 
-    &--item {
+    .carousel--container {
       @include margpad(0, 0);
+      margin-top: $margin-size-small;
+      margin-bottom: $margin-size-small;
 
-      .carousel-inner {
-        height: $big-screen-carousel;
-
-        @media only screen and (max-width: 770px) {
-          height: $small-screen-carousel;
-        }
-
-        .carousel-item {
+      &--item {
+        .carousel-inner {
           height: $big-screen-carousel;
 
           @media only screen and (max-width: 770px) {
             height: $small-screen-carousel;
           }
 
-          img {
+          .carousel-item {
             height: $big-screen-carousel;
             @media only screen and (max-width: 770px) {
               height: $small-screen-carousel;
+            }
+
+            img {
+              height: $big-screen-carousel;
+              @media only screen and (max-width: 770px) {
+                height: $small-screen-carousel;
+              }
             }
           }
         }
       }
     }
-  }
 
-  .card--container {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: baseline;
+    .card--container {
+      @include margpad(0, 0);
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      flex-wrap: wrap;
 
-    .card--container--card {
-      border: none;
-      background-color: $bc-cream;
+      .card--container--card {
+        border: none;
+        background-color: $bc-cream;
 
-      .card-body {
-        text-align: center;
+        .card-body {
+          text-align: center;
 
-        .card-title {
-          color: $color-boldgreen;
-          font-size: $subtitle-size;
-        }
+          .card-title {
+            color: $color-boldgreen;
+            font-size: $subtitle-size;
+          }
 
-        .card-link {
-          text-decoration: none;
-          cursor: pointer;
-          color: $color-boldpink;
+          .card-link {
+            text-decoration: none;
+            cursor: pointer;
+            color: $color-boldpink;
+          }
         }
       }
     }
